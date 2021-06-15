@@ -1,0 +1,333 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/jaehongpark/공부/프로그래밍/AndroidStudioProjects/travelmate/app/src/main/AndroidManifest.xml:2:1-70:12
+INJECTED from /Users/jaehongpark/공부/프로그래밍/AndroidStudioProjects/travelmate/app/src/main/AndroidManifest.xml:2:1-70:12
+INJECTED from /Users/jaehongpark/공부/프로그래밍/AndroidStudioProjects/travelmate/app/src/main/AndroidManifest.xml:2:1-70:12
+INJECTED from /Users/jaehongpark/공부/프로그래밍/AndroidStudioProjects/travelmate/app/src/main/AndroidManifest.xml:2:1-70:12
+MERGED from [com.romainpiel.shimmer:library:1.4.0] /Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/library-1.4.0.aar/dc85a74b958cf6450c087ce1a97a1425/AndroidManifest.xml:2:1-13:12
+MERGED from [com.facebook.android:facebook-android-sdk:4.41.0] /Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.41.0.aar/a3271b7495cdc430278f0d9be579ff5c/AndroidManifest.xml:21:1-31:12
+MERGED from [com.code-troopers.betterpickers:library:3.1.0] /Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/library-3.1.0.aar/1190a035fa46d46ba0008271173c2f02/AndroidManifest.xml:2:1-12:12
+MERGED from [com.borax12.materialdaterangepicker:library:1.9] /Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/library-1.9.aar/3861f54224a44cade2b30e846db3940b/AndroidManifest.xml:17:1-30:12
+MERGED from [com.appyvet:materialrangebar:1.3] /Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/materialrangebar-1.3.aar/01c804265b8240c18c73bd44e7fbb2a6/AndroidManifest.xml:2:1-11:12
+MERGED from [jp.wasabeef:glide-transformations:2.0.2] /Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/glide-transformations-2.0.2.aar/c4daa57f3ffa40793f7b77611acdda93/AndroidManifest.xml:2:1-12:12
+MERGED from [jp.co.cyberagent.android.gpuimage:gpuimage-library:1.4.1] /Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/gpuimage-library-1.4.1.aar/fe951e271185ec7b2f1d74ed2fa8c5ad/AndroidManifest.xml:2:1-12:12
+MERGED from [com.android.support.constraint:constraint-layout:2.0.0-alpha3] /Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/constraint-layout-2.0.0-alpha3.aar/98d312d81452f1df2be80593a329fcaa/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/ad6cfc18003730b2710bd9558fc9f533/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.JakeWharton:ViewPagerIndicator:2.4.1] /Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/ViewPagerIndicator-2.4.1.aar/955d3efe84bd38ebf79aad97d1f22e7a/AndroidManifest.xml:2:1-11:12
+MERGED from [com.facebook.android:facebook-login:4.41.0] /Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/facebook-login-4.41.0.aar/b8b40ce8d43b67aab68cfe02f918cf86/AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-share:4.41.0] /Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/facebook-share-4.41.0.aar/7d6e307be2a1554d3cee8a7dd58a50f3/AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-common:4.41.0] /Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/facebook-common-4.41.0.aar/7afe88d213f93c8ff8d7390e2175c8fe/AndroidManifest.xml:21:1-37:12
+MERGED from [com.facebook.android:facebook-places:4.41.0] /Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/facebook-places-4.41.0.aar/3c039f20462f08170e80f5552efc4af0/AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-applinks:4.41.0] /Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/facebook-applinks-4.41.0.aar/8b5be42697f3174678e50c68b2f40d42/AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-messenger:4.41.0] /Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/facebook-messenger-4.41.0.aar/1c070798af5c5da9290b2414c6222ea2/AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-marketing:4.41.0] /Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/facebook-marketing-4.41.0.aar/eb13ffdde36ad1233e2757d380aaf732/AndroidManifest.xml:21:1-35:12
+MERGED from [com.facebook.android:facebook-core:4.41.0] /Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/facebook-core-4.41.0.aar/af713d86b9b42ae4dfb4336260342dc0/AndroidManifest.xml:21:1-53:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/865962a1f384314bbcf3f7c938ecbf3d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v4:27.0.2] /Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.2.aar/ca84c49ac91a6576334f1b3830ec18b9/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:27.0.2] /Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.0.2.aar/c1f79c820ac50410ce3084e032808af3/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customtabs:27.0.2] /Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/customtabs-27.0.2.aar/1a62cd4370e605856fb4ff65e875370c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/f66645e6b101ff7153eec0b2f0bb9330/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/e3eca00ea6769265abb24f4c5d6b1531/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/5e0a771c5e61f2a0daa50651eb36a3a0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/a98ccc8148d4db50aff612ada9f597ab/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/d11658c66c2eecf569312f251889bb87/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.0.2] /Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/cb584758e940133e86d1d73e310b40ab/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] /Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/9ce3e4c2a896cd3baacd6d84cece86e7/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/5df02263af65cdf2434b6e59f17ab60f/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/29d661f740658d2bb38a763467bd38d8/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/fd26c9d605ee739d676b00d87e910920/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] /Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/66818f4fb7198c4c8be650f6defa6fa7/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/jaehongpark/공부/프로그래밍/AndroidStudioProjects/travelmate/app/src/main/AndroidManifest.xml:2:1-70:12
+INJECTED from /Users/jaehongpark/공부/프로그래밍/AndroidStudioProjects/travelmate/app/src/main/AndroidManifest.xml:2:1-70:12
+INJECTED from /Users/jaehongpark/공부/프로그래밍/AndroidStudioProjects/travelmate/app/src/main/AndroidManifest.xml:2:1-70:12
+	package
+		ADDED from /Users/jaehongpark/공부/프로그래밍/AndroidStudioProjects/travelmate/app/src/main/AndroidManifest.xml:4:5-46
+		INJECTED from /Users/jaehongpark/공부/프로그래밍/AndroidStudioProjects/travelmate/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/jaehongpark/공부/프로그래밍/AndroidStudioProjects/travelmate/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/jaehongpark/공부/프로그래밍/AndroidStudioProjects/travelmate/app/src/main/AndroidManifest.xml
+		ADDED from /Users/jaehongpark/공부/프로그래밍/AndroidStudioProjects/travelmate/app/src/main/AndroidManifest.xml:2:1-70:12
+		INJECTED from /Users/jaehongpark/공부/프로그래밍/AndroidStudioProjects/travelmate/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/jaehongpark/공부/프로그래밍/AndroidStudioProjects/travelmate/app/src/main/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /Users/jaehongpark/공부/프로그래밍/AndroidStudioProjects/travelmate/app/src/main/AndroidManifest.xml
+		ADDED from /Users/jaehongpark/공부/프로그래밍/AndroidStudioProjects/travelmate/app/src/main/AndroidManifest.xml:2:1-70:12
+		INJECTED from /Users/jaehongpark/공부/프로그래밍/AndroidStudioProjects/travelmate/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/jaehongpark/공부/프로그래밍/AndroidStudioProjects/travelmate/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /Users/jaehongpark/공부/프로그래밍/AndroidStudioProjects/travelmate/app/src/main/AndroidManifest.xml:7:5-76
+	android:name
+		ADDED from /Users/jaehongpark/공부/프로그래밍/AndroidStudioProjects/travelmate/app/src/main/AndroidManifest.xml:7:22-73
+uses-permission#android.permission.INTERNET
+ADDED from /Users/jaehongpark/공부/프로그래밍/AndroidStudioProjects/travelmate/app/src/main/AndroidManifest.xml:8:5-67
+	android:name
+		ADDED from /Users/jaehongpark/공부/프로그래밍/AndroidStudioProjects/travelmate/app/src/main/AndroidManifest.xml:8:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/jaehongpark/공부/프로그래밍/AndroidStudioProjects/travelmate/app/src/main/AndroidManifest.xml:9:5-79
+	android:name
+		ADDED from /Users/jaehongpark/공부/프로그래밍/AndroidStudioProjects/travelmate/app/src/main/AndroidManifest.xml:9:22-76
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/jaehongpark/공부/프로그래밍/AndroidStudioProjects/travelmate/app/src/main/AndroidManifest.xml:11:5-81
+	android:name
+		ADDED from /Users/jaehongpark/공부/프로그래밍/AndroidStudioProjects/travelmate/app/src/main/AndroidManifest.xml:11:22-78
+uses-permission#android.permission.CAMERA
+ADDED from /Users/jaehongpark/공부/프로그래밍/AndroidStudioProjects/travelmate/app/src/main/AndroidManifest.xml:13:5-65
+	android:name
+		ADDED from /Users/jaehongpark/공부/프로그래밍/AndroidStudioProjects/travelmate/app/src/main/AndroidManifest.xml:13:22-62
+application
+ADDED from /Users/jaehongpark/공부/프로그래밍/AndroidStudioProjects/travelmate/app/src/main/AndroidManifest.xml:16:5-68:19
+MERGED from [com.romainpiel.shimmer:library:1.4.0] /Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/library-1.4.0.aar/dc85a74b958cf6450c087ce1a97a1425/AndroidManifest.xml:11:5-20
+MERGED from [com.romainpiel.shimmer:library:1.4.0] /Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/library-1.4.0.aar/dc85a74b958cf6450c087ce1a97a1425/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.android:facebook-android-sdk:4.41.0] /Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.41.0.aar/a3271b7495cdc430278f0d9be579ff5c/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-android-sdk:4.41.0] /Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.41.0.aar/a3271b7495cdc430278f0d9be579ff5c/AndroidManifest.xml:28:5-29:19
+MERGED from [com.borax12.materialdaterangepicker:library:1.9] /Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/library-1.9.aar/3861f54224a44cade2b30e846db3940b/AndroidManifest.xml:28:5-20
+MERGED from [com.borax12.materialdaterangepicker:library:1.9] /Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/library-1.9.aar/3861f54224a44cade2b30e846db3940b/AndroidManifest.xml:28:5-20
+MERGED from [com.android.support.constraint:constraint-layout:2.0.0-alpha3] /Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/constraint-layout-2.0.0-alpha3.aar/98d312d81452f1df2be80593a329fcaa/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:2.0.0-alpha3] /Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/constraint-layout-2.0.0-alpha3.aar/98d312d81452f1df2be80593a329fcaa/AndroidManifest.xml:9:5-20
+MERGED from [com.facebook.android:facebook-login:4.41.0] /Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/facebook-login-4.41.0.aar/b8b40ce8d43b67aab68cfe02f918cf86/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-login:4.41.0] /Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/facebook-login-4.41.0.aar/b8b40ce8d43b67aab68cfe02f918cf86/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-share:4.41.0] /Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/facebook-share-4.41.0.aar/7d6e307be2a1554d3cee8a7dd58a50f3/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-share:4.41.0] /Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/facebook-share-4.41.0.aar/7d6e307be2a1554d3cee8a7dd58a50f3/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-common:4.41.0] /Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/facebook-common-4.41.0.aar/7afe88d213f93c8ff8d7390e2175c8fe/AndroidManifest.xml:28:5-35:19
+MERGED from [com.facebook.android:facebook-common:4.41.0] /Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/facebook-common-4.41.0.aar/7afe88d213f93c8ff8d7390e2175c8fe/AndroidManifest.xml:28:5-35:19
+MERGED from [com.facebook.android:facebook-places:4.41.0] /Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/facebook-places-4.41.0.aar/3c039f20462f08170e80f5552efc4af0/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-places:4.41.0] /Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/facebook-places-4.41.0.aar/3c039f20462f08170e80f5552efc4af0/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-applinks:4.41.0] /Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/facebook-applinks-4.41.0.aar/8b5be42697f3174678e50c68b2f40d42/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-applinks:4.41.0] /Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/facebook-applinks-4.41.0.aar/8b5be42697f3174678e50c68b2f40d42/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-messenger:4.41.0] /Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/facebook-messenger-4.41.0.aar/1c070798af5c5da9290b2414c6222ea2/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-messenger:4.41.0] /Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/facebook-messenger-4.41.0.aar/1c070798af5c5da9290b2414c6222ea2/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-marketing:4.41.0] /Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/facebook-marketing-4.41.0.aar/eb13ffdde36ad1233e2757d380aaf732/AndroidManifest.xml:28:5-33:19
+MERGED from [com.facebook.android:facebook-marketing:4.41.0] /Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/facebook-marketing-4.41.0.aar/eb13ffdde36ad1233e2757d380aaf732/AndroidManifest.xml:28:5-33:19
+MERGED from [com.facebook.android:facebook-core:4.41.0] /Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/facebook-core-4.41.0.aar/af713d86b9b42ae4dfb4336260342dc0/AndroidManifest.xml:28:5-51:19
+MERGED from [com.facebook.android:facebook-core:4.41.0] /Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/facebook-core-4.41.0.aar/af713d86b9b42ae4dfb4336260342dc0/AndroidManifest.xml:28:5-51:19
+	android:supportsRtl
+		ADDED from /Users/jaehongpark/공부/프로그래밍/AndroidStudioProjects/travelmate/app/src/main/AndroidManifest.xml:21:9-35
+	android:label
+		ADDED from /Users/jaehongpark/공부/프로그래밍/AndroidStudioProjects/travelmate/app/src/main/AndroidManifest.xml:20:9-41
+	android:hardwareAccelerated
+		ADDED from /Users/jaehongpark/공부/프로그래밍/AndroidStudioProjects/travelmate/app/src/main/AndroidManifest.xml:18:9-43
+	android:icon
+		ADDED from /Users/jaehongpark/공부/프로그래밍/AndroidStudioProjects/travelmate/app/src/main/AndroidManifest.xml:19:9-43
+	android:allowBackup
+		ADDED from /Users/jaehongpark/공부/프로그래밍/AndroidStudioProjects/travelmate/app/src/main/AndroidManifest.xml:17:9-35
+	android:theme
+		ADDED from /Users/jaehongpark/공부/프로그래밍/AndroidStudioProjects/travelmate/app/src/main/AndroidManifest.xml:22:9-59
+meta-data#com.facebook.sdk.ApplicationId
+ADDED from /Users/jaehongpark/공부/프로그래밍/AndroidStudioProjects/travelmate/app/src/main/AndroidManifest.xml:23:9-25:55
+	android:value
+		ADDED from /Users/jaehongpark/공부/프로그래밍/AndroidStudioProjects/travelmate/app/src/main/AndroidManifest.xml:25:13-52
+	android:name
+		ADDED from /Users/jaehongpark/공부/프로그래밍/AndroidStudioProjects/travelmate/app/src/main/AndroidManifest.xml:24:13-58
+activity#com.teamnova.jaepark.travelmate.activities.MainActivity
+ADDED from /Users/jaehongpark/공부/프로그래밍/AndroidStudioProjects/travelmate/app/src/main/AndroidManifest.xml:27:9-33:20
+	android:name
+		ADDED from /Users/jaehongpark/공부/프로그래밍/AndroidStudioProjects/travelmate/app/src/main/AndroidManifest.xml:27:19-58
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/jaehongpark/공부/프로그래밍/AndroidStudioProjects/travelmate/app/src/main/AndroidManifest.xml:28:13-32:29
+action#android.intent.action.MAIN
+ADDED from /Users/jaehongpark/공부/프로그래밍/AndroidStudioProjects/travelmate/app/src/main/AndroidManifest.xml:29:17-69
+	android:name
+		ADDED from /Users/jaehongpark/공부/프로그래밍/AndroidStudioProjects/travelmate/app/src/main/AndroidManifest.xml:29:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/jaehongpark/공부/프로그래밍/AndroidStudioProjects/travelmate/app/src/main/AndroidManifest.xml:31:17-77
+	android:name
+		ADDED from /Users/jaehongpark/공부/프로그래밍/AndroidStudioProjects/travelmate/app/src/main/AndroidManifest.xml:31:27-74
+activity#com.teamnova.jaepark.travelmate.activities.LoginActivity
+ADDED from /Users/jaehongpark/공부/프로그래밍/AndroidStudioProjects/travelmate/app/src/main/AndroidManifest.xml:34:9-62
+	android:name
+		ADDED from /Users/jaehongpark/공부/프로그래밍/AndroidStudioProjects/travelmate/app/src/main/AndroidManifest.xml:34:19-59
+activity#com.facebook.FacebookActivity
+ADDED from /Users/jaehongpark/공부/프로그래밍/AndroidStudioProjects/travelmate/app/src/main/AndroidManifest.xml:35:9-40:45
+MERGED from [com.facebook.android:facebook-common:4.41.0] /Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/facebook-common-4.41.0.aar/7afe88d213f93c8ff8d7390e2175c8fe/AndroidManifest.xml:29:9-32:66
+MERGED from [com.facebook.android:facebook-common:4.41.0] /Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/facebook-common-4.41.0.aar/7afe88d213f93c8ff8d7390e2175c8fe/AndroidManifest.xml:29:9-32:66
+	android:label
+		ADDED from /Users/jaehongpark/공부/프로그래밍/AndroidStudioProjects/travelmate/app/src/main/AndroidManifest.xml:38:13-45
+	android:configChanges
+		ADDED from /Users/jaehongpark/공부/프로그래밍/AndroidStudioProjects/travelmate/app/src/main/AndroidManifest.xml:37:13-96
+	android:theme
+		ADDED from /Users/jaehongpark/공부/프로그래밍/AndroidStudioProjects/travelmate/app/src/main/AndroidManifest.xml:39:13-72
+		REJECTED from [com.facebook.android:facebook-common:4.41.0] /Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/facebook-common-4.41.0.aar/7afe88d213f93c8ff8d7390e2175c8fe/AndroidManifest.xml:32:13-63
+	tools:replace
+		ADDED from /Users/jaehongpark/공부/프로그래밍/AndroidStudioProjects/travelmate/app/src/main/AndroidManifest.xml:40:13-42
+	android:name
+		ADDED from /Users/jaehongpark/공부/프로그래밍/AndroidStudioProjects/travelmate/app/src/main/AndroidManifest.xml:36:13-57
+activity#com.teamnova.jaepark.travelmate.activities.Signin.registerActivity
+ADDED from /Users/jaehongpark/공부/프로그래밍/AndroidStudioProjects/travelmate/app/src/main/AndroidManifest.xml:41:9-72
+	android:name
+		ADDED from /Users/jaehongpark/공부/프로그래밍/AndroidStudioProjects/travelmate/app/src/main/AndroidManifest.xml:41:19-69
+activity#com.teamnova.jaepark.travelmate.activities.Signin.TermsActivity
+ADDED from /Users/jaehongpark/공부/프로그래밍/AndroidStudioProjects/travelmate/app/src/main/AndroidManifest.xml:42:9-69
+	android:name
+		ADDED from /Users/jaehongpark/공부/프로그래밍/AndroidStudioProjects/travelmate/app/src/main/AndroidManifest.xml:42:19-66
+activity#com.teamnova.jaepark.travelmate.activities.MenuActivity
+ADDED from /Users/jaehongpark/공부/프로그래밍/AndroidStudioProjects/travelmate/app/src/main/AndroidManifest.xml:43:9-45:72
+	android:theme
+		ADDED from /Users/jaehongpark/공부/프로그래밍/AndroidStudioProjects/travelmate/app/src/main/AndroidManifest.xml:45:13-69
+	android:name
+		ADDED from /Users/jaehongpark/공부/프로그래밍/AndroidStudioProjects/travelmate/app/src/main/AndroidManifest.xml:44:13-52
+activity#com.teamnova.jaepark.travelmate.activities.TravelMenu.CreateTravel
+ADDED from /Users/jaehongpark/공부/프로그래밍/AndroidStudioProjects/travelmate/app/src/main/AndroidManifest.xml:46:9-48:72
+	android:theme
+		ADDED from /Users/jaehongpark/공부/프로그래밍/AndroidStudioProjects/travelmate/app/src/main/AndroidManifest.xml:48:13-69
+	android:name
+		ADDED from /Users/jaehongpark/공부/프로그래밍/AndroidStudioProjects/travelmate/app/src/main/AndroidManifest.xml:47:13-63
+provider#android.support.v4.content.FileProvider
+ADDED from /Users/jaehongpark/공부/프로그래밍/AndroidStudioProjects/travelmate/app/src/main/AndroidManifest.xml:50:9-58:20
+	android:grantUriPermissions
+		ADDED from /Users/jaehongpark/공부/프로그래밍/AndroidStudioProjects/travelmate/app/src/main/AndroidManifest.xml:54:13-47
+	android:authorities
+		ADDED from /Users/jaehongpark/공부/프로그래밍/AndroidStudioProjects/travelmate/app/src/main/AndroidManifest.xml:52:13-77
+	android:exported
+		ADDED from /Users/jaehongpark/공부/프로그래밍/AndroidStudioProjects/travelmate/app/src/main/AndroidManifest.xml:53:13-37
+	android:name
+		ADDED from /Users/jaehongpark/공부/프로그래밍/AndroidStudioProjects/travelmate/app/src/main/AndroidManifest.xml:51:13-67
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from /Users/jaehongpark/공부/프로그래밍/AndroidStudioProjects/travelmate/app/src/main/AndroidManifest.xml:55:13-57:54
+	android:resource
+		ADDED from /Users/jaehongpark/공부/프로그래밍/AndroidStudioProjects/travelmate/app/src/main/AndroidManifest.xml:57:17-51
+	android:name
+		ADDED from /Users/jaehongpark/공부/프로그래밍/AndroidStudioProjects/travelmate/app/src/main/AndroidManifest.xml:56:17-67
+activity#com.teamnova.jaepark.travelmate.activities.travelFilter.ConditionFilterActivity
+ADDED from /Users/jaehongpark/공부/프로그래밍/AndroidStudioProjects/travelmate/app/src/main/AndroidManifest.xml:60:9-85
+	android:name
+		ADDED from /Users/jaehongpark/공부/프로그래밍/AndroidStudioProjects/travelmate/app/src/main/AndroidManifest.xml:60:19-82
+activity#com.teamnova.jaepark.travelmate.activities.EditInfoActivity
+ADDED from /Users/jaehongpark/공부/프로그래밍/AndroidStudioProjects/travelmate/app/src/main/AndroidManifest.xml:61:9-65
+	android:name
+		ADDED from /Users/jaehongpark/공부/프로그래밍/AndroidStudioProjects/travelmate/app/src/main/AndroidManifest.xml:61:19-62
+activity#com.teamnova.jaepark.travelmate.activities.TravelMenu.TravelDetailActivity
+ADDED from /Users/jaehongpark/공부/프로그래밍/AndroidStudioProjects/travelmate/app/src/main/AndroidManifest.xml:62:9-80
+	android:name
+		ADDED from /Users/jaehongpark/공부/프로그래밍/AndroidStudioProjects/travelmate/app/src/main/AndroidManifest.xml:62:19-77
+activity#com.teamnova.jaepark.travelmate.activities.TravelMenu.EditTravel
+ADDED from /Users/jaehongpark/공부/프로그래밍/AndroidStudioProjects/travelmate/app/src/main/AndroidManifest.xml:63:9-65:72
+	android:theme
+		ADDED from /Users/jaehongpark/공부/프로그래밍/AndroidStudioProjects/travelmate/app/src/main/AndroidManifest.xml:65:13-69
+	android:name
+		ADDED from /Users/jaehongpark/공부/프로그래밍/AndroidStudioProjects/travelmate/app/src/main/AndroidManifest.xml:64:13-61
+activity#com.teamnova.jaepark.travelmate.activities.Chat.ChatRoomActivity
+ADDED from /Users/jaehongpark/공부/프로그래밍/AndroidStudioProjects/travelmate/app/src/main/AndroidManifest.xml:67:9-79
+	android:name
+		ADDED from /Users/jaehongpark/공부/프로그래밍/AndroidStudioProjects/travelmate/app/src/main/AndroidManifest.xml:67:19-67
+uses-sdk
+INJECTED from /Users/jaehongpark/공부/프로그래밍/AndroidStudioProjects/travelmate/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/jaehongpark/공부/프로그래밍/AndroidStudioProjects/travelmate/app/src/main/AndroidManifest.xml
+INJECTED from /Users/jaehongpark/공부/프로그래밍/AndroidStudioProjects/travelmate/app/src/main/AndroidManifest.xml
+MERGED from [com.romainpiel.shimmer:library:1.4.0] /Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/library-1.4.0.aar/dc85a74b958cf6450c087ce1a97a1425/AndroidManifest.xml:7:5-9:41
+MERGED from [com.romainpiel.shimmer:library:1.4.0] /Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/library-1.4.0.aar/dc85a74b958cf6450c087ce1a97a1425/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.android:facebook-android-sdk:4.41.0] /Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.41.0.aar/a3271b7495cdc430278f0d9be579ff5c/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-android-sdk:4.41.0] /Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.41.0.aar/a3271b7495cdc430278f0d9be579ff5c/AndroidManifest.xml:24:5-26:41
+MERGED from [com.code-troopers.betterpickers:library:3.1.0] /Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/library-3.1.0.aar/1190a035fa46d46ba0008271173c2f02/AndroidManifest.xml:8:5-10:41
+MERGED from [com.code-troopers.betterpickers:library:3.1.0] /Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/library-3.1.0.aar/1190a035fa46d46ba0008271173c2f02/AndroidManifest.xml:8:5-10:41
+MERGED from [com.borax12.materialdaterangepicker:library:1.9] /Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/library-1.9.aar/3861f54224a44cade2b30e846db3940b/AndroidManifest.xml:22:5-24:41
+MERGED from [com.borax12.materialdaterangepicker:library:1.9] /Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/library-1.9.aar/3861f54224a44cade2b30e846db3940b/AndroidManifest.xml:22:5-24:41
+MERGED from [com.appyvet:materialrangebar:1.3] /Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/materialrangebar-1.3.aar/01c804265b8240c18c73bd44e7fbb2a6/AndroidManifest.xml:7:5-9:41
+MERGED from [com.appyvet:materialrangebar:1.3] /Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/materialrangebar-1.3.aar/01c804265b8240c18c73bd44e7fbb2a6/AndroidManifest.xml:7:5-9:41
+MERGED from [jp.wasabeef:glide-transformations:2.0.2] /Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/glide-transformations-2.0.2.aar/c4daa57f3ffa40793f7b77611acdda93/AndroidManifest.xml:8:5-10:41
+MERGED from [jp.wasabeef:glide-transformations:2.0.2] /Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/glide-transformations-2.0.2.aar/c4daa57f3ffa40793f7b77611acdda93/AndroidManifest.xml:8:5-10:41
+MERGED from [jp.co.cyberagent.android.gpuimage:gpuimage-library:1.4.1] /Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/gpuimage-library-1.4.1.aar/fe951e271185ec7b2f1d74ed2fa8c5ad/AndroidManifest.xml:8:5-10:41
+MERGED from [jp.co.cyberagent.android.gpuimage:gpuimage-library:1.4.1] /Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/gpuimage-library-1.4.1.aar/fe951e271185ec7b2f1d74ed2fa8c5ad/AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support.constraint:constraint-layout:2.0.0-alpha3] /Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/constraint-layout-2.0.0-alpha3.aar/98d312d81452f1df2be80593a329fcaa/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:2.0.0-alpha3] /Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/constraint-layout-2.0.0-alpha3.aar/98d312d81452f1df2be80593a329fcaa/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/ad6cfc18003730b2710bd9558fc9f533/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/ad6cfc18003730b2710bd9558fc9f533/AndroidManifest.xml:20:5-44
+MERGED from [com.github.JakeWharton:ViewPagerIndicator:2.4.1] /Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/ViewPagerIndicator-2.4.1.aar/955d3efe84bd38ebf79aad97d1f22e7a/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.JakeWharton:ViewPagerIndicator:2.4.1] /Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/ViewPagerIndicator-2.4.1.aar/955d3efe84bd38ebf79aad97d1f22e7a/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.android:facebook-login:4.41.0] /Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/facebook-login-4.41.0.aar/b8b40ce8d43b67aab68cfe02f918cf86/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-login:4.41.0] /Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/facebook-login-4.41.0.aar/b8b40ce8d43b67aab68cfe02f918cf86/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-share:4.41.0] /Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/facebook-share-4.41.0.aar/7d6e307be2a1554d3cee8a7dd58a50f3/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-share:4.41.0] /Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/facebook-share-4.41.0.aar/7d6e307be2a1554d3cee8a7dd58a50f3/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-common:4.41.0] /Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/facebook-common-4.41.0.aar/7afe88d213f93c8ff8d7390e2175c8fe/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-common:4.41.0] /Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/facebook-common-4.41.0.aar/7afe88d213f93c8ff8d7390e2175c8fe/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-places:4.41.0] /Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/facebook-places-4.41.0.aar/3c039f20462f08170e80f5552efc4af0/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-places:4.41.0] /Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/facebook-places-4.41.0.aar/3c039f20462f08170e80f5552efc4af0/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-applinks:4.41.0] /Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/facebook-applinks-4.41.0.aar/8b5be42697f3174678e50c68b2f40d42/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-applinks:4.41.0] /Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/facebook-applinks-4.41.0.aar/8b5be42697f3174678e50c68b2f40d42/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-messenger:4.41.0] /Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/facebook-messenger-4.41.0.aar/1c070798af5c5da9290b2414c6222ea2/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-messenger:4.41.0] /Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/facebook-messenger-4.41.0.aar/1c070798af5c5da9290b2414c6222ea2/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-marketing:4.41.0] /Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/facebook-marketing-4.41.0.aar/eb13ffdde36ad1233e2757d380aaf732/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-marketing:4.41.0] /Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/facebook-marketing-4.41.0.aar/eb13ffdde36ad1233e2757d380aaf732/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-core:4.41.0] /Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/facebook-core-4.41.0.aar/af713d86b9b42ae4dfb4336260342dc0/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-core:4.41.0] /Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/facebook-core-4.41.0.aar/af713d86b9b42ae4dfb4336260342dc0/AndroidManifest.xml:24:5-26:41
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/865962a1f384314bbcf3f7c938ecbf3d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/865962a1f384314bbcf3f7c938ecbf3d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.2] /Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.2.aar/ca84c49ac91a6576334f1b3830ec18b9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.2] /Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.2.aar/ca84c49ac91a6576334f1b3830ec18b9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.0.2] /Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.0.2.aar/c1f79c820ac50410ce3084e032808af3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.0.2] /Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.0.2.aar/c1f79c820ac50410ce3084e032808af3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customtabs:27.0.2] /Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/customtabs-27.0.2.aar/1a62cd4370e605856fb4ff65e875370c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customtabs:27.0.2] /Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/customtabs-27.0.2.aar/1a62cd4370e605856fb4ff65e875370c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/f66645e6b101ff7153eec0b2f0bb9330/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/f66645e6b101ff7153eec0b2f0bb9330/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/e3eca00ea6769265abb24f4c5d6b1531/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/e3eca00ea6769265abb24f4c5d6b1531/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/5e0a771c5e61f2a0daa50651eb36a3a0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/5e0a771c5e61f2a0daa50651eb36a3a0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/a98ccc8148d4db50aff612ada9f597ab/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/a98ccc8148d4db50aff612ada9f597ab/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/d11658c66c2eecf569312f251889bb87/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/d11658c66c2eecf569312f251889bb87/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.2] /Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/cb584758e940133e86d1d73e310b40ab/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.2] /Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/cb584758e940133e86d1d73e310b40ab/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/9ce3e4c2a896cd3baacd6d84cece86e7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/9ce3e4c2a896cd3baacd6d84cece86e7/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/5df02263af65cdf2434b6e59f17ab60f/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/5df02263af65cdf2434b6e59f17ab60f/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/29d661f740658d2bb38a763467bd38d8/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/29d661f740658d2bb38a763467bd38d8/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/fd26c9d605ee739d676b00d87e910920/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/fd26c9d605ee739d676b00d87e910920/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/66818f4fb7198c4c8be650f6defa6fa7/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/66818f4fb7198c4c8be650f6defa6fa7/AndroidManifest.xml:20:5-44
+INJECTED from /Users/jaehongpark/공부/프로그래밍/AndroidStudioProjects/travelmate/app/src/main/AndroidManifest.xml
+INJECTED from /Users/jaehongpark/공부/프로그래밍/AndroidStudioProjects/travelmate/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/jaehongpark/공부/프로그래밍/AndroidStudioProjects/travelmate/app/src/main/AndroidManifest.xml
+		ADDED from /Users/jaehongpark/공부/프로그래밍/AndroidStudioProjects/travelmate/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/jaehongpark/공부/프로그래밍/AndroidStudioProjects/travelmate/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/jaehongpark/공부/프로그래밍/AndroidStudioProjects/travelmate/app/src/main/AndroidManifest.xml
+		ADDED from /Users/jaehongpark/공부/프로그래밍/AndroidStudioProjects/travelmate/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/jaehongpark/공부/프로그래밍/AndroidStudioProjects/travelmate/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.VIBRATE
+ADDED from [com.borax12.materialdaterangepicker:library:1.9] /Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/library-1.9.aar/3861f54224a44cade2b30e846db3940b/AndroidManifest.xml:26:5-66
+	android:name
+		ADDED from [com.borax12.materialdaterangepicker:library:1.9] /Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/library-1.9.aar/3861f54224a44cade2b30e846db3940b/AndroidManifest.xml:26:22-63
+activity#com.facebook.CustomTabMainActivity
+ADDED from [com.facebook.android:facebook-common:4.41.0] /Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/facebook-common-4.41.0.aar/7afe88d213f93c8ff8d7390e2175c8fe/AndroidManifest.xml:33:9-71
+	android:name
+		ADDED from [com.facebook.android:facebook-common:4.41.0] /Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/facebook-common-4.41.0.aar/7afe88d213f93c8ff8d7390e2175c8fe/AndroidManifest.xml:33:19-68
+activity#com.facebook.CustomTabActivity
+ADDED from [com.facebook.android:facebook-common:4.41.0] /Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/facebook-common-4.41.0.aar/7afe88d213f93c8ff8d7390e2175c8fe/AndroidManifest.xml:34:9-67
+	android:name
+		ADDED from [com.facebook.android:facebook-common:4.41.0] /Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/facebook-common-4.41.0.aar/7afe88d213f93c8ff8d7390e2175c8fe/AndroidManifest.xml:34:19-64
+provider#com.facebook.marketing.internal.MarketingInitProvider
+ADDED from [com.facebook.android:facebook-marketing:4.41.0] /Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/facebook-marketing-4.41.0.aar/eb13ffdde36ad1233e2757d380aaf732/AndroidManifest.xml:29:9-32:40
+	android:authorities
+		ADDED from [com.facebook.android:facebook-marketing:4.41.0] /Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/facebook-marketing-4.41.0.aar/eb13ffdde36ad1233e2757d380aaf732/AndroidManifest.xml:31:13-73
+	android:exported
+		ADDED from [com.facebook.android:facebook-marketing:4.41.0] /Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/facebook-marketing-4.41.0.aar/eb13ffdde36ad1233e2757d380aaf732/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.facebook.android:facebook-marketing:4.41.0] /Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/facebook-marketing-4.41.0.aar/eb13ffdde36ad1233e2757d380aaf732/AndroidManifest.xml:30:13-81
+provider#com.facebook.internal.FacebookInitProvider
+ADDED from [com.facebook.android:facebook-core:4.41.0] /Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/facebook-core-4.41.0.aar/af713d86b9b42ae4dfb4336260342dc0/AndroidManifest.xml:39:9-42:40
+	android:authorities
+		ADDED from [com.facebook.android:facebook-core:4.41.0] /Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/facebook-core-4.41.0.aar/af713d86b9b42ae4dfb4336260342dc0/AndroidManifest.xml:41:13-72
+	android:exported
+		ADDED from [com.facebook.android:facebook-core:4.41.0] /Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/facebook-core-4.41.0.aar/af713d86b9b42ae4dfb4336260342dc0/AndroidManifest.xml:42:13-37
+	android:name
+		ADDED from [com.facebook.android:facebook-core:4.41.0] /Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/facebook-core-4.41.0.aar/af713d86b9b42ae4dfb4336260342dc0/AndroidManifest.xml:40:13-70
+receiver#com.facebook.CurrentAccessTokenExpirationBroadcastReceiver
+ADDED from [com.facebook.android:facebook-core:4.41.0] /Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/facebook-core-4.41.0.aar/af713d86b9b42ae4dfb4336260342dc0/AndroidManifest.xml:44:9-50:20
+	android:exported
+		ADDED from [com.facebook.android:facebook-core:4.41.0] /Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/facebook-core-4.41.0.aar/af713d86b9b42ae4dfb4336260342dc0/AndroidManifest.xml:46:13-37
+	android:name
+		ADDED from [com.facebook.android:facebook-core:4.41.0] /Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/facebook-core-4.41.0.aar/af713d86b9b42ae4dfb4336260342dc0/AndroidManifest.xml:45:13-86
+intent-filter#action:name:com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED
+ADDED from [com.facebook.android:facebook-core:4.41.0] /Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/facebook-core-4.41.0.aar/af713d86b9b42ae4dfb4336260342dc0/AndroidManifest.xml:47:13-49:29
+action#com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED
+ADDED from [com.facebook.android:facebook-core:4.41.0] /Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/facebook-core-4.41.0.aar/af713d86b9b42ae4dfb4336260342dc0/AndroidManifest.xml:48:17-95
+	android:name
+		ADDED from [com.facebook.android:facebook-core:4.41.0] /Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/facebook-core-4.41.0.aar/af713d86b9b42ae4dfb4336260342dc0/AndroidManifest.xml:48:25-92

@@ -1,0 +1,28 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/jaehongpark/공부/프로그래밍/AndroidStudioProjects/travelmate/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v14/values-v14.xml",
+            "map": [
+                {
+                    "source": "/Users/jaehongpark/.gradle/caches/transforms-1/files-1.1/materialrangebar-1.3.aar/01c804265b8240c18c73bd44e7fbb2a6/res/values-v14/values-v14.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "164",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "310"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "201"
+                    }
+                }
+            ]
+        }
+    ]
+}

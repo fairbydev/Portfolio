@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: jp.co.cyberagent.android.gpuimage:gpuimage-library:1.4.1@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/gpuimage-library-1.4.1.aar/fe951e271185ec7b2f1d74ed2fa8c5ad/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/gpuimage-library-1.4.1.aar/fe951e271185ec7b2f1d74ed2fa8c5ad/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

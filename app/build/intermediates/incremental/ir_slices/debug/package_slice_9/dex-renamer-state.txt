@@ -1,0 +1,4 @@
+#Tue Jun 11 20:36:33 KST 2019
+base.0=/Users/jaehongpark/공부/프로그래밍/AndroidStudioProjects/travelmate/app/build/intermediates/transforms/dexMerger/debug/9
+path.0=classes.dex
+renamed.0=classes.dex
