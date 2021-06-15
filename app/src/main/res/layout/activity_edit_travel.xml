@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.teamnova.jaepark.travelmate.activities.TravelMenu.EditTravel">
+
+
+
+    <LinearLayout
+        android:id="@+id/activity_editTravel_actionBar"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="#0091EA">
+
+
+        <ImageView
+            android:id="@+id/activity_editTravel_backkey_ImgView"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_gravity="start|center_vertical"
+            android:src="@drawable/ic_keyboard_backspace_white_24dp"
+            android:layout_marginLeft="5dp"
+            android:padding="5dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.8"
+            android:text="여행정보 수정"
+            android:textSize="30dp"
+            android:textColor="#ffffff"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"/>
+
+        <Button
+            android:id="@+id/activity_editTravel_delete_Btn"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:text="삭제"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            android:background="@drawable/rounded_button_blue_0d47a1"
+            android:layout_margin="7dp"
+
+            />
+
+    </LinearLayout>
+
+
+    <ScrollView
+        android:id="@+id/activity_editTravel_ScrollLayout"
+        android:layout_below="@id/activity_editTravel_actionBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F5F5F5">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#F5F5F5"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/rounded_button_white"
+                android:layout_marginBottom="10dp"
+                android:padding="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="여행제목 : "
+                    android:textColor="#000000"
+                    android:textSize="25dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="10dp"
+                    />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="#FF9100"
+                    android:textColor="#000000"
+                    android:textSize="15dp"
+                    android:maxLength="15"
+                    android:hint="여행제목을 15자 이내로 적어주세요"
+                    android:layout_gravity="center_vertical"
+                    android:id="@+id/activity_editTravel_travelTitle_ET"/>
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/rounded_button_white"
+                android:layout_marginBottom="10dp"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="여행기간 : "
+                    android:textSize="25dp"
+                    android:textColor="#000000"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="5dp" />
+
+                <TextView
+                    android:id="@+id/activity_editTravel_Date_TV"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="날짜선택"
+                    android:textSize="15dp"
+                    android:textColor="#FF9100"
+                    />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/rounded_button_white"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="여행할 도시 : "
+                    android:textSize="25dp"
+                    android:textColor="#000000"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="10dp"/>
+
+                <EditText
+                    android:id="@+id/activity_editTravel_place_ET"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="도시명(한글)"
+                    android:textColorHint="#FF9100"
+                    android:layout_gravity="bottom"/>
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal"
+                android:background="@drawable/rounded_button_white"
+                android:layout_marginBottom="10dp"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="여행인원 : "
+                    android:textColor="#000000"
+                    android:textSize="25dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="5dp"
+                    />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:orientation="horizontal">
+
+                    <Spinner
+                        android:layout_gravity="center_horizontal"
+                        android:layout_width="140dp"
+                        android:layout_height="match_parent"
+                        android:spinnerMode="dropdown"
+                        android:textAlignment="center"
+                        android:background="@drawable/rounded_button_yellow_base"
+                        android:id="@+id/activity_editTravel_maxPerson_spinner"/>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="vertical"
+                android:background="@drawable/rounded_button_white"
+                android:layout_marginBottom="10dp"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="예상경비(개별) : "
+                    android:textColor="#000000"
+                    android:textSize="25dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="10dp" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="#FF9100"
+                    android:textColor="#000000"
+                    android:textSize="15dp"
+                    android:maxLength="15"
+                    android:hint="예상 경비를 입력해주세요(원)"
+                    android:layout_gravity="center_vertical"
+                    android:id="@+id/activity_editTravel_travelCost_ET"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="vertical"
+                android:background="@drawable/rounded_button_white"
+                android:layout_marginBottom="10dp"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="성별 : "
+                    android:textColor="#000000"
+                    android:textSize="25dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="10dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/activity_editTravel_gender01_btn"
+                        android:layout_weight="0.25"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="여자만"
+                        android:textColor="#000000"
+                        android:background="@drawable/rounded_button_gray"/>
+
+                    <Button
+                        android:id="@+id/activity_editTravel_gender02_btn"
+                        android:layout_weight="0.25"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/rounded_button_gray"
+                        android:text="남자만"
+                        android:textColor="#000000"/>
+
+                    <Button
+                        android:id="@+id/activity_editTravel_gender03_btn"
+                        android:layout_weight="0.25"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/rounded_button_gray"
+                        android:text="성별무관"
+                        android:textColor="#000000"/>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/rounded_button_white"
+                android:layout_marginBottom="10dp"
+                android:padding="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="참여연령 : "
+                        android:textSize="25dp"
+                        android:textColor="#000000"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginBottom="5dp" />
+
+                    <TextView
+                        android:id="@+id/activity_editTravel_ageBar_TV"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="연령설정"
+                        android:textSize="25dp"
+                        android:textColor="#000000"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginBottom="5dp" />
+
+                </LinearLayout>
+
+
+                <com.appyvet.rangebar.RangeBar
+                    xmlns:custom="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/activity_editTravel_ageRange_Seekbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    custom:tickStart="18"
+                    custom:tickInterval="1"
+                    custom:tickEnd="90"
+                    android:layout_weight="1"
+                    android:layout_span="2"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/rounded_button_white"
+                android:layout_marginBottom="10dp"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="여행설명 : "
+                    android:textSize="25dp"
+                    android:textColor="#000000"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="5dp" />
+
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:textColorHint="#FF9100"
+                    android:textColor="#000000"
+                    android:textSize="15dp"
+                    android:maxLength="150"
+                    android:maxLines="10"
+                    android:hint="여행계획을 간략히 적어주세요"
+                    android:layout_gravity="center_vertical"
+                    android:id="@+id/activity_editTravel_travelBriefing_ET"
+                    android:background="@drawable/rounded_button_gray"
+                    android:padding="10dp"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/rounded_button_white"
+                android:layout_marginBottom="10dp"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="사진선택 : "
+                    android:textSize="25dp"
+                    android:textColor="#000000"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="5dp" />
+
+                <LinearLayout
+                    android:id="@+id/activity_editTravel_picture_LL"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/activity_editTravel_takePic01_ImageView"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="0.25"
+                        android:src="@drawable/ic_add_a_photo_black_24dp"
+                        />
+
+                    <ImageView
+                        android:id="@+id/activity_editTravel_takePic02_ImageView"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="0.25"
+                        android:src="@drawable/ic_add_a_photo_black_24dp"
+                        />
+
+                    <ImageView
+                        android:id="@+id/activity_editTravel_takePic03_ImageView"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="0.25"
+                        android:src="@drawable/ic_add_a_photo_black_24dp"
+                        />
+
+                    <ImageView
+                        android:id="@+id/activity_editTravel_takePic04_ImageView"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="0.25"
+                        android:src="@drawable/ic_add_a_photo_black_24dp"
+                        />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#FF9100"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"/>
+
+            <Button
+                android:background="@drawable/rounded_button_yellow"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="수정하기"
+                android:id="@+id/activity_editTravel_editInfo_Btn"
+                android:layout_marginBottom="30dp"/>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</RelativeLayout>

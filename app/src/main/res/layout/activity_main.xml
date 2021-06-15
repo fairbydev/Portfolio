@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:background="@drawable/bf"
+    tools:context="com.teamnova.jaepark.travelmate.activities.MainActivity">
+
+
+    <com.romainpiel.shimmer.ShimmerTextView
+        android:id="@+id/activity_main_label"
+        android:text="TRAVEL MATE"
+        android:textSize="40dp"
+        android:textColor="#FFFFFF"
+        android:fontFamily="casual"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        />
+
+
+    <com.romainpiel.shimmer.ShimmerTextView
+        android:text="JH Corp."
+        android:textSize="25dp"
+        android:fontFamily="casual"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/activity_main_TeamNovaTV"
+        />
+
+
+
+</RelativeLayout>

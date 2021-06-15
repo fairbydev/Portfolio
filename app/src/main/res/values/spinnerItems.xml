@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="gender">
+        <item>선택</item>
+        <item>남</item>
+        <item>여</item>
+        <item>기타</item>
+    </string-array>
+
+    <string-array name="maxPerson">
+        <item>단둘이서(2인)</item>
+        <item>3인 ~ 5인 </item>
+        <item>6인 ~ 10인</item>
+        <item>10인 초과</item>
+    </string-array>
+
+    <string-array name="maxPersonForFilter">
+        <item>상관없음</item>
+        <item>단둘이서(2인)</item>
+        <item>3인 ~ 5인 </item>
+        <item>6인 ~ 10인</item>
+        <item>10인 초과</item>
+    </string-array>
+
+</resources>

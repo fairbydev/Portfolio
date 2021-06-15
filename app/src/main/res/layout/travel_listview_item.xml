@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingTop="10dp"
+    android:background="#E0E0E0"
+    android:id="@+id/listview_task_item">
+
+
+    <RelativeLayout
+        android:id="@+id/travel_listview_upperBody_RelativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_gravity="center"
+            android:id="@+id/travel_listview_traverPicture_ImageView"
+            android:background="#F5F5F5"
+            android:scaleType="centerCrop"
+            />
+
+        <TextView
+            android:id="@+id/travel_listview_traverPlace_TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounded_button_blue"
+            android:text="도시명"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            android:padding="3dp"
+            />
+
+        <TextView
+            android:id="@+id/travel_listview_traverHit_TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="10dp"
+            android:padding="3dp"
+            android:text="조회수"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            />
+
+
+        <LinearLayout
+            android:layout_below="@id/travel_listview_traverPicture_ImageView"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:background="#ffffff"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/travel_listview_traverTitle_TextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:text="여행타이틀"
+                android:textSize="20dp"
+                android:textColor="#000000"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/travel_listview_traverGender_TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.01"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="5dp"
+                    android:text="성별"
+                    android:textSize="10dp"
+                    android:textColor="#0091EA"
+                    />
+
+                <TextView
+                    android:id="@+id/travel_listview_traverAge_TextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.99"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:text="연령대"
+                    android:textSize="10dp"
+                    android:textColor="#0091EA"
+                    />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="0.5"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/travel_listview_traverDate_TextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="15dp"
+                android:text="여행일자"
+                android:textSize="10dp"
+                android:textColor="#0091EA"
+                />
+
+
+        </LinearLayout>
+
+
+        <ImageView
+            android:id="@+id/travel_listview_profilePicture_ImageView"
+            android:src="@drawable/ic_account_circle_black_48dp"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="100dp"
+            android:layout_marginRight="15dp"/>
+
+    </RelativeLayout>
+
+
+
+
+
+
+</RelativeLayout>

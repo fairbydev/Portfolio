@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    android:background="@color/cardview_light_background"
+    tools:context="com.teamnova.jaepark.travelmate.activities.MenuActivity"
+    android:orientation="vertical">
+
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="100dp"-->
+        <!--android:layout_weight="0.3"-->
+        <!--android:background="#EEEEEE"-->
+        <!--&gt;-->
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:textSize="50dp"-->
+            <!--android:text="액션바 들어갈 곳"-->
+            <!--android:textColor="#000000"/>-->
+    <!--</LinearLayout>-->
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/activity_menu_viewPager"
+        android:layout_weight="0.8"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:background="@drawable/square_button_yellow">
+    </android.support.v4.view.ViewPager>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_weight="0.1"
+        android:id="@+id/activity_menu_tabLinear">
+
+        <ImageView
+            android:id="@+id/activity_menuImgView_home"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.2"
+            android:src="@drawable/ic_home_white_24dp"
+            android:background="@drawable/square_button_yellow"
+            android:padding="15dp"/>
+
+        <ImageView
+            android:id="@+id/activity_menuImgView_chat"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.2"
+            android:src="@drawable/ic_chat_white_24dp"
+            android:background="@drawable/square_button_yellow"
+            android:padding="15dp"/>
+
+
+        <ImageView
+            android:id="@+id/activity_menuImgView_alram"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.2"
+            android:src="@drawable/ic_add_alert_white_24dp"
+            android:background="@drawable/square_button_yellow"
+            android:padding="15dp"/>
+
+        <ImageView
+            android:id="@+id/activity_menuImgView_mypage"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.2"
+            android:src="@drawable/ic_portrait_white_24dp"
+            android:background="@drawable/square_button_yellow"
+            android:padding="15dp"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>

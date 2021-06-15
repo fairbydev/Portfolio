@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:background="#ffffff"
+    android:id="@+id/chat_recycler_others_CL"
+    android:paddingLeft="5sp">
+
+
+    <ImageView
+        android:id="@+id/chat_recycler_others_propic_IV"
+        android:layout_width="50sp"
+        android:layout_height="50sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="#FFFFFF"/>
+
+
+    <LinearLayout
+        android:layout_width="0sp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintLeft_toRightOf="@id/chat_recycler_others_propic_IV"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_margin="4sp">
+
+        <TextView
+            android:id="@+id/chat_recycler_others_nickname_TV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="10sp"
+            android:hint="nickName"
+            android:layout_marginStart="7sp"
+            android:textColorHint="@color/bpDarker_blue"
+            android:textColor="#757575"
+            android:layout_marginLeft="3sp"/>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginLeft="3sp">
+
+
+            <TextView
+                android:id="@+id/chat_recycler_othersMsg_TV"
+                android:layout_width="wrap_content"
+                android:layout_height="30sp"
+                android:layout_margin="3sp"
+                android:background="@drawable/rounded_grey_chat_input"
+                android:hint="room for msg"
+                android:breakStrategy="simple"
+                android:maxWidth="350sp"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:paddingLeft="10sp"
+                android:paddingRight="10sp"
+                android:paddingTop="5sp"
+                android:paddingBottom="5sp"/>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="3sp"
+                android:orientation="vertical"
+                android:layout_gravity="bottom">
+
+                <TextView
+                    android:id="@+id/chat_recycler_others_unread_TV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff"
+                    android:hint="unread_TV"
+                    android:textColor="#000000"
+                    android:textColorHint="#ffeb3b"
+                    android:textSize="10sp" />
+
+
+                <TextView
+                    android:id="@+id/chat_recycler_others_timestamp_TV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff"
+                    android:hint="timestamp"
+                    android:textColor="#757575"
+                    android:textColorHint="#757575"
+                    android:textSize="10sp" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+</android.support.constraint.ConstraintLayout>

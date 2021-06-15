@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_light_background"
+    android:id="@+id/layout_frag_0">
+
+
+
+    <LinearLayout
+    android:id="@+id/fragment_menu_home_actionBar"
+    android:layout_width="match_parent"
+    android:layout_height="45dp"
+    android:background="@drawable/square_button_yellow">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.8"
+            android:text="여행찾기"
+            android:textSize="30dp"
+            android:textColor="#000000"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"/>
+
+        <ImageView
+            android:id="@+id/fragment00_ImageView_createTravel"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center_vertical|end"
+            android:src="@drawable/ic_add_black_24dp"
+            android:layout_marginRight="5dp"
+            android:padding="5dp"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/fragment_menu_home_LinearLayoutForET"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@id/fragment_menu_home_actionBar"
+        android:orientation="horizontal"
+        android:background="@drawable/border_sharp_ffffff"
+        android:layout_margin="3dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true">
+        
+        <ImageView
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:src="@drawable/ic_search_black_24dp"
+            android:padding="10dp"
+            android:layout_marginRight="-5dp"/>
+        
+        <EditText
+            android:id="@+id/fragment_menu_home_searchEditText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.3"
+            android:hint="찾고싶은 도시 또는 제목을 입력해주세요"
+            android:textSize="15dp"
+            android:textColorHint="#FF8A65"
+            android:textColor="#000000"/>
+
+
+        <ImageView
+            android:id="@+id/fragment_menu_home_filterImgView"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/ic_tune_black_24dp"
+            android:padding="5dp"
+            android:layout_margin="3dp"
+            android:layout_gravity="center_vertical"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/fragment_menu_home_subFilterLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@+id/fragment_menu_home_LinearLayoutForET"
+        android:orientation="horizontal"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginBottom="3dp">
+
+        <LinearLayout
+            android:id="@+id/fragment_menu_home_travelDateLL"
+            android:layout_margin="1dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:padding="3dp"
+            android:background="@drawable/border_sharp_ffffff">
+
+            <ImageView
+                android:layout_weight="0.1"
+                android:layout_gravity="center_vertical"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/ic_date_range_black_24dp"
+                android:padding="2dp"/>
+
+
+            <TextView
+                android:id="@+id/fragment_menu_home_travelDateTV"
+                android:layout_weight="1.9"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="여행 일정 선택"
+                android:textColor="#FF8A65"
+                android:gravity="center_vertical"
+                android:textSize="15dp" />
+
+            <ImageView
+                android:id="@+id/fragment_menu_home_deleteDate_ImgView"
+                android:layout_weight="0.1"
+                android:layout_gravity="center_vertical"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/ic_close_black_48dp"
+                android:padding="2dp"
+                android:visibility="gone"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/fragment_menu_home_sortLinearLayout"
+            android:layout_margin="1dp"
+            android:layout_weight="0.22"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/border_sharp_ffffff">
+
+            <TextView
+                android:id="@+id/fragment_menu_home_sortTextView"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                android:layout_weight="0.6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAlignment="center"
+                android:text="최신순"
+                android:textColor="#000000"
+                android:textSize="15dp"/>
+
+            <ImageView
+                android:layout_gravity="center_vertical"
+                android:layout_weight="0.4"
+                android:layout_marginRight="3dp"
+                android:layout_marginLeft="-13dp"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/ic_keyboard_arrow_down_black_48dp"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/fragment_menu_home_Listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/fragment_menu_home_subFilterLinearLayout"
+        android:footerDividersEnabled="false" />
+
+
+</RelativeLayout>
+
+

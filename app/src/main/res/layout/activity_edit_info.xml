@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.teamnova.jaepark.travelmate.activities.EditInfoActivity"
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:id="@+id/activity_EditInfo_actionBar_LL"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="#000000">
+
+
+        <ImageView
+            android:id="@+id/activity_EditInfo_backkey_ImgView"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_gravity="start|center_vertical"
+            android:src="@drawable/ic_keyboard_backspace_white_24dp"
+            android:layout_marginLeft="5dp"
+            android:padding="5dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.8"
+            android:text="나의 정보수정"
+            android:textSize="27dp"
+            android:textColor="#ffffff"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/activity_EditInfo_actionBar_LL"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#ffffff">
+
+        <ImageView
+            android:id="@+id/activity_EditInfo_profilePic_ImgView"
+            android:layout_marginTop="20dp"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/ic_account_circle_black_48dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_weight="0.3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="닉네임 : "
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:gravity="center"
+                />
+
+            <EditText
+                android:id="@+id/activity_EditInfo_nickname_ET"
+                android:layout_weight="0.7"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_marginRight="15dp"
+                android:background="#ffffff"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_weight="0.3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="생일 : "
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:gravity="center"
+                />
+
+            <TextView
+                android:id="@+id/activity_EditInfo_birth_TV"
+                android:layout_weight="0.7"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="생일"
+                android:textSize="20dp"
+                android:textColor="#FF9100"
+                android:gravity="center"
+                />
+
+            <Button
+                android:id="@+id/activity_EditInfo_birth_Btn"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_marginRight="15dp"
+                android:text="날짜선택"
+                android:background="@drawable/rounded_button_blue"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+            android:layout_marginBottom="30dp">
+
+            <TextView
+                android:layout_weight="0.3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="성별 : "
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:gravity="center"
+                />
+
+            <TextView
+                android:id="@+id/activity_EditInfo_gender_TV"
+                android:layout_weight="0.7"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="성별"
+                android:textSize="20dp"
+                android:textColor="#FF9100"
+                android:gravity="center"
+                />
+
+            <Button
+                android:id="@+id/activity_EditInfo_gender_Btn"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:layout_marginRight="15dp"
+                android:text="성별선택"
+                android:background="@drawable/rounded_button_blue"/>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/activity_EditInfo_editConfirm_Btn"
+            android:background="@drawable/rounded_button_yellow"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="수정하기"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
